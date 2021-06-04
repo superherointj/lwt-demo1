@@ -8,8 +8,12 @@ buildDunePackage {
   src = ./.;
   useDune2 = true;
 
-  # nativeBuildInputs = [ findlib ];
-  buildInputs = [ 
+  nativeBuildInputs = [
+    reason
+  ];
+
+  buildInputs = [
     lwt
+    lwt_ppx
   ];
 }
