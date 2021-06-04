@@ -28,3 +28,12 @@ error: builder for '/nix/store/v1ks5gyhlmchvzwasfl33nixdrfwjf20-ocaml4.12.0-lwt-
 Any idea?
 
 Thanks.
+
+### Esy
+
+esy
+esy build
+./_esy/default/build/default/LwtDemoApp.exe
+
+
+Problem on esy won't occur. Different version?
