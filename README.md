@@ -30,10 +30,10 @@ Any idea?
 Thanks.
 
 ### Esy
-
+```
 esy
 esy build
 ./_esy/default/build/default/LwtDemoApp.exe
-
+```
 
 Problem on esy won't occur. Different version?
