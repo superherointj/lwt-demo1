@@ -1,0 +1,26 @@
+{
+  "name": "lwt-demo-app",
+  "version": "0.1.0",
+  "description": "Lwt + Reason Demo",
+  "license": "MIT",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildDev": "refmterr dune build --promote-install-files --root . --only-package #{self.name}",
+    "release": {
+      "rewritePrefix": true,
+      "bin": [
+        "LwtDemoApp"
+      ]
+    },
+    "buildEnv": {
+      "ODOC_SYNTAX": "re"
+    }
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/lwt": "*",
+    "@opam/lwt_ppx": "*",
+    "@esy-ocaml/reason": "*",
+    "ocaml": "*"
+  }
+}
