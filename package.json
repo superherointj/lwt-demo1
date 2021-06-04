@@ -20,7 +20,8 @@
     "@opam/dune": "*",
     "@opam/lwt": "*",
     "@opam/lwt_ppx": "*",
-    "@esy-ocaml/reason": "*",
+    "@opam/reason": "*",
+    "refmterr": "*",
     "ocaml": "*"
   }
 }
