@@ -1,0 +1,8 @@
+(executable
+   (name LwtDemoApp)
+   (public_name lwt-demo.app)
+   (libraries lwt lwt.unix)
+   (preprocess (pps lwt_ppx))
+   (ocamlopt_flags -linkall)
+   (package lwt-demo-app)
+)
