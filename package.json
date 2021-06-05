@@ -5,15 +5,12 @@
   "license": "MIT",
   "esy": {
     "build": "dune build -p #{self.name}",
-    "buildDev": "dune build --promote-install-files --root . --only-package #{self.name}",
+    "buildDev": "dune build -p #{self.name}",
     "release": {
       "rewritePrefix": true,
       "bin": [
         "LwtDemoApp"
       ]
-    },
-    "buildEnv": {
-      "ODOC_SYNTAX": "re"
     }
   },
   "dependencies": {
